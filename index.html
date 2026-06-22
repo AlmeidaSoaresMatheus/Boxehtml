@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Treino de Boxe - Adaptado (Equipamentos Caseiros)</title>
+    <style>
+        :root {
+            --primary: #e63946;
+            --dark: #1d3557;
+            --light: #f1faee;
+            --gray: #f8f9fa;
+            --text: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--gray);
+            color: var(--text);
+        }
+        header {
+            background: linear-gradient(rgba(29, 53, 87, 0.9), rgba(29, 53, 87, 0.9)), url('https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 1rem auto;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .day-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 3rem;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        @media (min-width: 768px) {
+            .day-card {
+                flex-direction: row;
+            }
+            .day-card:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+        }
+        .day-image {
+            flex: 1;
+            min-height: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        .day-content {
+            flex: 2;
+            padding: 2rem;
+        }
+        .day-content h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--gray);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        .exercise-list {
+            list-style: none;
+            padding: 0;
+        }
+        .exercise-list li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .exercise-list li::before {
+            content: "🥊";
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        .instructions {
+            background: var(--light);
+            padding: 1.5rem;
+            border-left: 4px solid var(--dark);
+            margin-top: 1.5rem;
+            border-radius: 0 5px 5px 0;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: var(--dark);
+        }
+        .warning {
+            color: #d90429;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--dark);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Treino de Boxe: 7 Dias (Em Casa)</h1>
+        <p>Um microciclo completo adaptado para quem treina com Halteres, Elásticos e Máquina Multiexercícios. Foco em velocidade, resistência muscular e explosão.</p>
+        <p><strong>Regra de Ouro:</strong> 1 minuto de descanso entre todos os rounds de boxe.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Dia 1 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1528629297340-d1d466945cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 1: Base Aeróbica e Boxe com Resistência</h2>
+                <ul class="exercise-list">
+                    <li><strong>Corrida (Aeróbico):</strong> 30 minutos de trote constante (meta: 5km contínuos no futuro).</li>
+                    <li><strong>Aquecimento:</strong> 10 minutos pulando corda (ou saltos simulando a corda).</li>
+                    <li><strong>Shadowboxing (Sombra livre):</strong> 4 rounds de 3 minutos. Foco estrito no trabalho de pés, movimento de cabeça e guarda alta.</li>
+                    <li><strong>Sombra com Resistência (Substituto do Saco):</strong> 5 rounds de 3 minutos usando elásticos (presos na máquina) ou halteres muito leves (1-2kg).</li>
+                    <li><strong>Core:</strong> 300 repetições totais (misture abdominais tradicionais, elevação de pernas e twist russo).</li>
+                </ul>
+                <div class="instructions">
+                    <h3>Como Executar</h3>
+                    <p><strong>Sombra com Resistência:</strong> Prenda a faixa elástica na máquina na altura do peito, fique de costas para ela e soque puxando a resistência. Se usar halteres, <span class="warning">nunca estenda o cotovelo 100%</span> no final do soco para proteger suas articulações.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dia 2 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 2: Academia Adaptada e Força Explosiva</h2>
+                <ul class="exercise-list">
+                    <li><strong>Agachamento Cálice (Goblet Squat):</strong> 4 séries de 6-8 reps. Segure um halter pesado na altura do peito e agache.</li>
+                    <li><strong>Supino na Máquina (Chest Press) ou com Halteres (Floor Press):</strong> 4 séries de 6-8 reps.</li>
+                    <li><strong>Puxada Alta (Pulldown) ou Remada na Máquina:</strong> 4 séries de 8-10 reps.</li>
+                    <li><strong>Rotação de Tronco na Polia (Woodchopper):</strong> 3 séries de 10 reps para cada lado. (Substituto da Medicine Ball).</li>
+                    <li><strong>Sombra de Potência:</strong> 4 rounds de 3 min. Segure os halteres (1-2kg). Mova-se lentamente e foque 100% no giro dos pés, do quadril e contração do abdômen ao socar o ar.</li>
+                </ul>
+                <div class="instructions">
+                    <h3>Como Executar</h3>
+                    <p><strong>Woodchopper na Polia:</strong> Ajuste a polia da máquina para a altura do peito. Fique de lado, segure o puxador com as duas mãos e gire o tronco de forma explosiva para o lado oposto, simulando a mecânica de um cruzado.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dia 3 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 3: Intervalos e Movimentação Defensiva</h2>
+                <ul class="exercise-list">
+                    <li><strong>Corrida (Intervalada):</strong> 10 min de aquecimento. Depois: <strong>6 tiros de 400m</strong> com 1 min de caminhada de descanso. Finalize com 5 min de trote leve.</li>
+                    <li><strong>Aquecimento:</strong> 10 minutos de corda.</li>
+                    <li><strong>Sparring ou Drills:</strong> 6 rounds de 3 minutos. (Se treinar sozinho, faça sombra imaginando um oponente agressivo).</li>
+                    <li><strong>Sombra Focada em Esquivas:</strong> 3 rounds de 3 min apenas movimentando a cabeça e o tronco (Substituto do Teto-Solo).</li>
+                </ul>
+                <div class="instructions">
+                    <h3>Como Executar</h3>
+                    <p><strong>Sombra Defensiva:</strong> Visualize golpes vindo na sua direção. Faça pêndulos (bob and weave), esquivas laterais e bloqueios. O foco aqui não é atacar, é não ser atingido.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dia 4 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 4: Recuperação Ativa</h2>
+                <ul class="exercise-list">
+                    <li><strong>Atividade Leve:</strong> 20 minutos de bicicleta, natação ou caminhada rápida.</li>
+                    <li><strong>Shadowboxing Técnico:</strong> 3 rounds de 3 minutos em frente ao espelho. Mova-se a 30% da velocidade, focando 100% na forma.</li>
+                    <li><strong>Mobilidade:</strong> 15-20 minutos de alongamento estático focando quadris, ombros e panturrilhas.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dia 5 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 5: Condicionamento e Burnout</h2>
+                <ul class="exercise-list">
+                    <li><strong>Manoplas ou Sombra Guiada:</strong> 5 rounds de 3 min. (Se sozinho, monte sequências complexas focando em sair dos cantos).</li>
+                    <li><strong>Burnout com Halteres/Elásticos:</strong> 2 rounds de 3 min de socos ininterruptos (1-2). Não pare de bater até o gongo soar.</li>
+                    <li><strong>Circuito (3 a 4 rounds):</strong><br>
+                        - Balanço com Halter (Dumbbell Swing): 15 reps<br>
+                        - Burpees: 15 reps<br>
+                        - Agachamento com Salto (Jump Squats): 10 reps<br>
+                        - Sombra super rápida com elásticos (ou socos no ar): 30 segundos
+                    </li>
+                </ul>
+                <div class="instructions">
+                    <h3>Como Executar</h3>
+                    <p><strong>Balanço com Halter:</strong> Segure um halter pesadinho por uma das extremidades. Faça a dobradiça de quadril e impulsione o peso contraindo os glúteos de forma explosiva (o mesmo movimento do Kettlebell Swing).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dia 6 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 6: O Teste de 5km</h2>
+                <ul class="exercise-list">
+                    <li><strong>Roadwork:</strong> A corrida de 5km. Imponha seu ritmo, a meta é completar sem parar.</li>
+                    <li><strong>Shadowboxing:</strong> 3 rounds de 3 min (sem peso) para soltar os músculos.</li>
+                    <li><strong>Pescoço e Core:</strong><br>
+                        - Pranchas: 3 séries de 1 minuto.<br>
+                        - Exercícios isométricos de pescoço: pressione a cabeça contra as mãos (frente, trás, lados) por 10 segundos cada, 3 séries.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dia 7 -->
+        <div class="day-card">
+            <div class="day-image" style="background-image: url('https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="day-content">
+                <h2>Dia 7: Descanso Total</h2>
+                <ul class="exercise-list">
+                    <li><strong>Descanso Físico e Mental:</strong> Sem treinos intensos.</li>
+                    <li><strong>Recuperação:</strong> Hidrate-se bem e alongue-se se necessário.</li>
+                    <li><strong>Mentalidade:</strong> Assista a lutas para estudar técnica e limpe/prepare seus equipamentos.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Desenvolvido para treinamento adaptado de Boxe Amador | Mantenha a Guarda Alta!</p>
+    </footer>
+
+</body>
+</html>
